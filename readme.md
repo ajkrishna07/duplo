@@ -20,7 +20,7 @@ conda install pytorch==1.12.1 torchvision==0.13.1 torchaudio==0.12.1 cudatoolkit
 ```
 
 ## Processing Pipeline
-*Note: Whenever the name of a video file or a CSV file is passed to a Python script, the file extension such as `.mp4` and `.csv`  must be ommitted.*
+*Note: Whenever the name of a video file or a CSV file is passed to a Python script, the file extension such as* `.mp4` *and* `.csv`  *must be ommitted.*
 
 ### Extract Images
 The first step in the pipeline is to convert the video into a folder of images and this done using the `extract_imgs.py` script:
